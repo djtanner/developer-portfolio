@@ -24,7 +24,7 @@ export const socialLinks = {
 export const skillsSection = {
 	title: "What I do",
 	subTitle:
-		"CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+		"FULL STACK SOFTWARE ENGINEER WITH A PASSION FOR AI AND GAME DEVELOPMENT",
 	data: [
 		{
 			title: "Full Stack Development",
