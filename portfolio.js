@@ -24,7 +24,7 @@ export const socialLinks = {
 export const skillsSection = {
 	title: "What I do",
 	subTitle:
-		"FULL STACK SOFTWARE ENGINEER WITH A PASSION FOR AI",
+		"FULL STACK SOFTWARE ENGINEER WITH A PASSION FOR ARTIFICIAL INTELLIGENCE",
 	data: [
 		{
 			title: "Full Stack Development",
@@ -197,32 +197,35 @@ export const experience = [
 		role: "Product Manager",
 		company: "ooVoo",
 		companylogo: "/img/icons/common/oovoo.png",
-		date: "Sept 2021",
+		date: "2012 - 2016",
 		desc: "I was the product manager for ooVoo for Mac, which was featured by Apple on the Mac App Store, consistently ranked #1 in the Social Networking category, and consistently in the top 15 in Top Free Apps. I was also the product manager for ooVoo for Windows Phone, which I led from conceptualization to launch and was featured by Microsoft on the Windows Phone Store.",
 	},
 ];
 
 export const projects = [
 	{
-		name: "developer-portfolio",
-		desc: "Software Developer Portfolio Template built with react.js and next.js bootstrap that helps you showcase your work and skills as a software developer.",
-		github: "https://github.com/1hanzla100/developer-portfolio",
-		link: "https://developer-portfolio-1hanzla100.vercel.app/",
+		name: "Computer Vision for Traffic Signs",
+		desc: "Used Tensor Flow to build a neural network to classify road signs based on images from the GTSRB dataset. Resulted in 96% accuracy.",
+		github: "https://github.com/djtanner/traffic",
+		link: "https://youtu.be/is2g0UvK8nc",
 	},
 	{
-		name: "AtlasMart",
-		desc: "With Atlas Mart, it’s easy to find the products with the best price and ship them straight to your door.",
-		github: "https://github.com/1hanzla100/Django-React-Marketplace",
+		name: "Web Application for Booking Home Services",
+		desc: "The purpose of this web application is to allow users to book home services, utilizing Django and Javascript. Included integration with email.",
+		github: "https://github.com/djtanner/capstone",
+		link: "https://youtu.be/YAS9_Gnld0c"
 	},
 	{
-		name: "Technota (Forum)",
-		desc: "Get hands-on experience in technical skills with Technota",
-		github: "https://github.com/1hanzla100/django-react-forum",
+		name: "The Massachusetts Platform for Legislative Engagement (MAPLE)",
+		desc: "Open Source contributor for bug fixes and new features",
+		github: "https://github.com/codeforboston/maple",
+		link: "https://mapletestimony.org/"
 	},
 	{
-		name: "Shopaza (Ecommerce)",
-		desc: "Now your reach to all your favorite entertainment and luxury items is just one touch apart",
-		github: "https://github.com/1hanzla100/Django-ecommerce",
+		name: "Mochi the Digger",
+		desc: "Created a 2D game using Lua and Love2D.",
+		github: "https://github.com/djtanner/digger",
+		link: "https://youtu.be/q6AKHB0kIxE"
 	},
 ];
 
@@ -246,10 +249,10 @@ export const showContactUs = true;
 export const seoData = {
 	title: "Zhila Shariat",
 	description:
-		"Software Engineer and Game Developer.",
+		"Software Engineer",
 	author: "Zhila Shariat",
-	image: "https://avatars3.githubusercontent.com/u/59178380?v=4",
-	url: "https://developer-portfolio-1hanzla100.vercel.app",
+	image: "",
+	url: "",
 	keywords: [
 		"Zhila",
 		"Zhila Shariat",
