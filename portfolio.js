@@ -4,7 +4,7 @@ export const greetings = {
 	name: "Zhila Shariat",
 	title: "Hi, I'm Zhila!",
 	description:
-		"I'm a self-taught software engineer with experience in web applications with Javascript, Python, Django, Flask, React.js, Next.js and game development with Lua, Love2d, and Unity.",
+		"I'm a software engineer with experience in creating web applications with Javascript, Python, Django, Flask, React.js, Next.js and a passion for products utilizing Artificial Intelligence.",
 	resumeLink:
 		"https://docs.google.com/document/d/1xWBvKKwoUvqZHSVFrtacDJNxh4UKAgUP37MUlDdYWsY/edit?usp=sharing",
 };
@@ -24,16 +24,16 @@ export const socialLinks = {
 export const skillsSection = {
 	title: "What I do",
 	subTitle:
-		"FULL STACK SOFTWARE ENGINEER WITH A PASSION FOR AI AND GAME DEVELOPMENT",
+		"FULL STACK SOFTWARE ENGINEER WITH A PASSION FOR AI",
 	data: [
 		{
 			title: "Full Stack Development",
-			lottieAnimationFile: "/lottie/skills/fullstack.json", // Path of Lottie Animation JSON File
+			lottieAnimationFile: "/lottie/girl.json", // Path of Lottie Animation JSON File
 			skills: [
 				emoji(
-					"⚡ Building responsive Single-Page-Apps (SPA) & PWA in React.js"
+					"⚡ Building responsive Single-Page-Apps with Python, Flask, Django, and React.js"
 				),
-				emoji("⚡ Building responsive static websites using Next.js"),
+				emoji("⚡ Building AI and ML projects using Python and Tensor Flow"),
 				emoji(
 					"⚡ Building RESTful APIs in Django & Django REST Framework"
 				),
@@ -56,8 +56,8 @@ export const skillsSection = {
 					fontAwesomeClassname: "vscode-icons:file-type-reactjs",
 				},
 				{
-					skillName: "Nextjs",
-					fontAwesomeClassname: "vscode-icons:file-type-light-next",
+					skillName: "Nodejs",
+					fontAwesomeClassname: "vscode-icons:file-type-node",
 				},
 				{
 					skillName: "Python",
@@ -67,10 +67,9 @@ export const skillsSection = {
 					skillName: "Django",
 					fontAwesomeClassname: "vscode-icons:file-type-django",
 				},
-
 				{
-					skillName: "Redux",
-					fontAwesomeClassname: "logos:redux",
+					skillName: "Flask",
+					fontAwesomeClassname: "logos:flask",
 				},
 				{
 					skillName: "NPM",
@@ -80,107 +79,10 @@ export const skillsSection = {
 					skillName: "Yarn",
 					fontAwesomeClassname: "logos:yarn",
 				},
+				
 			],
 		},
-		{
-			title: "Cloud Infra-Architecture",
-			lottieAnimationFile: "/lottie/skills/cloudinfra.json", // Path of Lottie Animation JSON File
-			skills: [
-				emoji("⚡ Experience of working on multiple cloud platforms"),
-				emoji(
-					"⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases"
-				),
-				emoji(
-					"⚡ Building CI/CD pipelines for automated testing & deployment using Github Actions"
-				),
-			],
-			softwareSkills: [
-				// ? Check README To get icon details
-				{
-					skillName: "AWS",
-					fontAwesomeClassname: "logos:aws",
-				},
-				{
-					skillName: "Azure",
-					fontAwesomeClassname: "logos:microsoft-azure",
-				},
-				{
-					skillName: "Heroku",
-					fontAwesomeClassname: "logos:heroku-icon",
-				},
-				{
-					skillName: "PostgreSQL",
-					fontAwesomeClassname: "logos:postgresql",
-				},
-				{
-					skillName: "Github",
-					fontAwesomeClassname: "akar-icons:github-fill",
-				},
-				{
-					skillName: "Docker",
-					fontAwesomeClassname: "logos:docker-icon",
-				},
-				{
-					skillName: "Github Actions",
-					fontAwesomeClassname: "logos:github-actions",
-				},
-				{
-					skillName: "Cloudinary",
-					fontAwesomeClassname: "logos:cloudinary",
-				},
-				{
-					skillName: "Nginx",
-					fontAwesomeClassname: "logos:nginx",
-				},
-				{
-					skillName: "Sentry",
-					fontAwesomeClassname: "logos:sentry-icon",
-				},
-			],
-		},
-		{
-			title: "Blockchain",
-			lottieAnimationFile: "/lottie/skills/ethereum.json", // Path of Lottie Animation JSON File
-			skills: [
-				emoji(
-					"⚡ Experience in developing Smart Contract using Solidity & Ethereum"
-				),
-				emoji(
-					"⚡ Building Scripts for automated testing & deployment of Smart Contracts using Brownie & Infura"
-				),
-				emoji(
-					"⚡ Experience of using Openzeppelin Smart Contract Standards & Chainlink Oracles"
-				),
-				emoji(
-					"⚡ Developing NFT Smart Contracts using ERC-721 Token Standard"
-				),
-				emoji(
-					"⚡ Building Dapps with React.js & Solidity using Web3.js, Moralis & IPFS"
-				),
-			],
-			softwareSkills: [
-				{
-					skillName: "Ethereum",
-					fontAwesomeClassname: "logos:ethereum",
-				},
-				{
-					skillName: "Solidity",
-					fontAwesomeClassname: "logos:solidity",
-				},
-				{
-					skillName: "Web3js",
-					fontAwesomeClassname: "logos:web3js",
-				},
-				{
-					skillName: "Metamask",
-					fontAwesomeClassname: "logos:metamask-icon",
-				},
-				{
-					skillName: "Ganache",
-					fontAwesomeClassname: "logos:ganache-icon",
-				},
-			],
-		},
+		
 	],
 };
 
@@ -201,50 +103,102 @@ export const SkillBars = [
 
 export const educationInfo = [
 	{
-		schoolName: "Harvard University",
-		subHeader: "Master of Science in Computer Science",
-		duration: "September 2017 - April 2019",
-		desc: "Participated in the research of XXX and published 3 papers.",
-		grade: "Grade A",
+		schoolName: "Columbia Business School",
+		subHeader: "Master of Science in Business Administration",
+		duration: "2006 - 2008",
+		desc: "",
+		grade: "MBA",
 		descBullets: [
-			"Lorem ipsum dolor sit amet, consectetur adipdfgiscing elit",
-			"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+			
 		],
 	},
+	{
+		schoolName: "Oklahoma State University",
+		subHeader: "Bachelor of Science in Mechanical Engineering",
+		duration: "1999 - 2003",
+		desc: "",
+		grade: "BS",
+		descBullets: [
+			
+		],
+	},
+	{
+		schoolName: "Harvard University",
+		subHeader: "CS50x - Introduction to Computer Science",
+		duration: "2021 - 2022",
+		desc: "Languages include C, Python, and SQL plus HTML, CSS, and JavaScript",
+		grade: "Certificate",
+		descBullets: [
+			"Topics include abstraction, algorithms, data structures, encapsulation, resource management, security, software engineering, and web programming.",
+			
+		],
+	},
+	{
+		schoolName: "Harvard University",
+		subHeader: "CS50 - Web Programming with Python and Javascript",
+		duration: "2022",
+		desc: "Implementation of web apps using Python, JavaScript, and SQL using frameworks like Django, React, and Bootstrap.",
+		grade: "Certificate",
+		descBullets: [
+			"Write and use APIs, create interactive UIs, and leverage cloud services like GitHub and Heroku. Topics include database design, scalability, security, and user experience. "
+			
+		],
+	},
+
+	{
+		schoolName: "Harvard University",
+		subHeader: "CS50 - Introduction to Game Development",
+		duration: "2022",
+		desc: "Languages include Lua and C#",
+		grade: "Certificate",
+		descBullets: [
+			"Explores principles of 2D and 3D graphics, animation, sound, and collision detection using Unity and LÖVE 2D frameworks",
+			
+		],
+	},
+
+	{
+		schoolName: "Harvard University",
+		subHeader: "CS50 - Introduction to AI with Python",
+		duration: "2022",
+		desc: "Python and Tensor Flow",
+		grade: "Certificate",
+		descBullets: [
+			"Topics include graph search algorithms, classification, optimization, reinforcement learning, neural networks, NLP",
+	
+		],
+	},
+
+
+
 ];
 
 export const experience = [
+	
 	{
-		role: "Frontend Developer",
-		company: "Duseca Software",
-		companylogo: "/img/icons/common/dusecaSoftware.jpg",
-		date: "Apr 2022 – Jun 2022",
-		desc: "I worked as frontend web developer to design web based admin dashboards for mulitple apps using Django, Bootstrap, jQuery, Chart.js and some other libraries.",
-	},
-	{
-		role: "API Engineer",
-		company: "Duseca Software",
-		companylogo: "/img/icons/common/dusecaSoftware.jpg",
-		date: "Jan 2022 – Mar 2022",
-		desc: "I worked as API Engineer on a Kale App. Kale is a community platform for the creation of social reviews based on verified transactions. I built Fully Optimized and High Performance RESTful APIs using Django, DjangoRESTFramework, PostgresSQL, JWT Authentication, AWS, Integrated Plaid APIs for Fetching Bank Transactions, Integrated Sentry for monitoring Django Server and deployed the API on Heroku Server.",
+		role: "Head of Product",
+		company: "Matic",
+		companylogo: "/img/icons/common/matic.jpeg",
+		date: "2018-2020",
+		desc: "I managed a UI/UX team of 5, owning multiple B2B and B2C products and platforms. I was also the product manager for the Matic mobile app and website, and I led the redesign of the iOS and Android app. The iOS app was featured by Apple on the App Store."
 		// descBullets: [
 		// 	"Lorem ipsum dolor sit amet, consdfgectetur adipiscing elit",
 		// 	"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
 		// ],
 	},
 	{
-		role: "Full Stack Developer",
-		company: "Bleed-AI",
-		companylogo: "/img/icons/common/bleedAI.jpg",
-		date: "Sept 2021 - Oct 2021",
-		desc: "Worked as django web developer to create a website in which I integrated computer vision AI model (built by the team of BleedAI) to process YouTube URLs and show Real Time processing on Website using Django Channels WebSockets , threading for running multiple instances of AI Model, jQuery for UI rendering and deployed it on Heroku server.",
+		role: "Head of Retail",
+		company: "Careem (acquired by Uber)",
+		companylogo: "/img/icons/common/careem.png",
+		date: "2016-2018",
+		desc: "I was responsible for the conceptualization, design, and launch of the organization's e-commerce and retail vertical, Dukkan Careem. I led the strategy, marketing, creative direction, and business development for Dukkan Careem, and was owner of the P&L. We were featured in Vogue Arabia, Grazia, CNN, and Arabian Business.",
 	},
 	{
-		role: "Backend Developer",
-		company: "Wapidu",
-		companylogo: "/img/icons/common/wapidu.jpg",
+		role: "Product Manager",
+		company: "ooVoo",
+		companylogo: "/img/icons/common/oovoo.png",
 		date: "Sept 2021",
-		desc: "Worked as a Django Developer to integrate Stripe payment gateway in wapidu.com and Created REST APIs using Django REST Framework to integrate Django Stripe backend to Vue.js Frontend and Deployed it on Azure based Docker container registry.",
+		desc: "I was the product manager for ooVoo for Mac, which was featured by Apple on the Mac App Store, consistently ranked #1 in the Social Networking category, and consistently in the top 15 in Top Free Apps. I was also the product manager for ooVoo for Windows Phone, which I led from conceptualization to launch and was featured by Microsoft on the Windows Phone Store.",
 	},
 ];
 

@@ -53,7 +53,8 @@ const Greetings = () => {
 									</div>
 								</Col>
 								<Col lg="6">
-									<GreetingLottie animationPath="/lottie/girl.json" />
+									<img src = "/img/zhila.png" alt="profile photo of Zhila" width="400" height="400"></img>
+									{/* <GreetingLottie animationPath="/lottie/girl.json" /> */}
 								</Col>
 							</Row>
 						</div>
