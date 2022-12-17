@@ -217,7 +217,8 @@ export const projects = [
 		name: "Computer Vision for Traffic Signs",
 		desc: "Used Tensor Flow to build a neural network to classify road signs based on images from the GTSRB dataset. Resulted in 96% accuracy.",
 		//github: "https://github.com/djtanner/traffic",
-		link: "https://youtu.be/is2g0UvK8nc",
+		link: "",
+		image: "/img/icons/common/traffic.gif"
 	},
 
 	{
@@ -225,7 +226,7 @@ export const projects = [
 		desc: "Used the Minimax algorithm to create an AI that plays Tic-Tac-Toe optimally.",
 		github: "",
 		link: "",
-		image: "/img/icons/common/traffic.gif"
+		image: ""
 	},
 
 	{
@@ -250,8 +251,9 @@ export const projects = [
 	{
 		name: "Mochi the Digger",
 		desc: "Created a 2D game using Lua and Love2D.",
-		github: "https://github.com/djtanner/digger",
-		link: "https://youtu.be/q6AKHB0kIxE"
+		github: "",
+		link: "",
+		image: "/img/icons/common/mochi.gif"
 	},
 
 
