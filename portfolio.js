@@ -4,9 +4,8 @@ export const greetings = {
 	name: "Zhila Shariat",
 	title: "Hi, I'm Zhila!",
 	description:
-		"I'm a software engineer with experience in creating web applications with Javascript, Python, Django, Flask, React.js, and Next.js and have a passion for creating games and products that utilize Artificial Intelligence.",
-	resumeLink:
-		"https://docs.google.com/document/d/1xWBvKKwoUvqZHSVFrtacDJNxh4UKAgUP37MUlDdYWsY/edit?usp=sharing",
+		"I'm a software engineer with experience in creating web applications with Javascript, Python, Django, Flask, React.js, and Next.js and have a passion for creating games and applications that utilize Artificial Intelligence.",
+	//resumeLink:"https://docs.google.com/document/d/1xWBvKKwoUvqZHSVFrtacDJNxh4UKAgUP37MUlDdYWsY/edit?usp=sharing",
 };
 
 export const openSource = {
@@ -152,7 +151,7 @@ export const educationInfo = [
 		desc: "Languages include Lua and C#",
 		grade: "Certificate",
 		descBullets: [
-			"Explores principles of 2D and 3D graphics, animation, sound, and collision detection using Unity and LÖVE 2D frameworks",
+			"Explores principles of 2D and 3D graphics, animation, sound, and collision detection using Unity and LÖVE 2D frameworks.",
 			
 		],
 	},
@@ -164,7 +163,7 @@ export const educationInfo = [
 		desc: "Python and Tensor Flow",
 		grade: "Certificate",
 		descBullets: [
-			"Topics include graph search algorithms, classification, optimization, reinforcement learning, neural networks, NLP",
+			"Topics include graph search algorithms, classification, optimization, reinforcement learning, neural networks, NLP.",
 	
 		],
 	},
@@ -215,7 +214,7 @@ export const experience = [
 export const projects = [
 	{
 		name: "Computer Vision for Traffic Signs",
-		desc: "Used Tensor Flow to build a neural network to classify road signs based on images from the GTSRB dataset. Resulted in 96% accuracy.",
+		desc: "Used Tensor Flow to build a neural network to classify road signs based on images from the GTSRB dataset. Resulted in 97% accuracy.",
 		//github: "https://github.com/djtanner/traffic",
 		link: "",
 		image: "/img/icons/common/traffic.gif"
@@ -263,7 +262,13 @@ export const projects = [
 		link: "",
 		image: "/img/icons/common/mochi.gif"
 	},
-
+	{
+		name: "Question and Answer AI",
+		desc: "Implemented a TF-IDF function to answer questions based on ranking documents and words using the Natural Language Toolkit NLTK library in Python.",
+		github: "",
+		link: "",
+		image: "/img/icons/common/questions.gif"
+	},
 
 
 ];

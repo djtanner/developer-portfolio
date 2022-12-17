@@ -38,7 +38,7 @@ const Greetings = () => {
 									</p>
 									<SocialLinks />
 									<div className="btn-wrapper my-4">
-										<Button
+										{greetings.resumeLink? <Button
 											className="btn-white btn-icon mb-3 mb-sm-0 ml-1"
 											color="default"
 											href={greetings.resumeLink}
@@ -49,7 +49,7 @@ const Greetings = () => {
 											<span className="btn-inner--text">
 												See My CV
 											</span>
-										</Button>
+										</Button>:null}
 									</div>
 								</Col>
 								<Col lg="6">
