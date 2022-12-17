@@ -7,9 +7,9 @@
   "author": "original Hanzla Tauqeer , changes by Zhila Shariat",
   "license": "MIT",
   "scripts": {
-    "dev": "next dev NODE_OPTIONS=--openssl-legacy-provider",
-    "build": "next build NODE_OPTIONS=--openssl-legacy-provider",
-    "start": "next start NODE_OPTIONS=--openssl-legacy-provider",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
