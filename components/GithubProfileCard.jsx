@@ -22,9 +22,10 @@ const GithubProfileCard = ({ prof }) => {
 						<Col lg="8" className="order-lg-1">
 							<h2 className="text-white">Connect with me!</h2>
 							<p className="lead text-white mt-3">
-								Want to discuss a project or just say hi?
-							</p>
-							<SocialLinks />
+								Want to discuss a project or just say hi? 
+								 Please connect with me on Github or LinkedIn!</p>
+					
+							<SocialLinks />	
 						</Col>
 					</Row>
 				</div>
