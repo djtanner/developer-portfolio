@@ -18150,6 +18150,11 @@ textarea[resize="horizontal"] {
 }
 
 .section-lg {
+	padding-top: 1rem;
+	padding-bottom: 0rem;
+}
+
+.section-greeting {
 	padding-top: 6rem;
 	padding-bottom: 0rem;
 }
