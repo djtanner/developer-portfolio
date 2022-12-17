@@ -189,7 +189,7 @@ export const experience = [
 		role: "Head of Product",
 		company: "Matic",
 		companylogo: "/img/icons/common/matic.jpeg",
-		date: "2018-2020",
+		date: "2018 - 2020",
 		desc: "I managed a UI/UX team of 5, owning multiple B2B and B2C products and platforms. I was also the product manager for the Matic mobile app and website, and I led the redesign of the iOS and Android app. The iOS app was featured by Apple on the App Store."
 		// descBullets: [
 		// 	"Lorem ipsum dolor sit amet, consdfgectetur adipiscing elit",
@@ -200,7 +200,7 @@ export const experience = [
 		role: "Head of Retail",
 		company: "Careem (acquired by Uber)",
 		companylogo: "/img/icons/common/careem.png",
-		date: "2016-2018",
+		date: "2016 - 2018",
 		desc: "I was responsible for the conceptualization, design, and launch of the organization's e-commerce and retail vertical, Dukkan Careem. I led the strategy, marketing, creative direction, and business development for Dukkan Careem, and was owner of the P&L. We were featured in Vogue Arabia, Grazia, CNN, and Arabian Business.",
 	},
 	{
@@ -226,7 +226,7 @@ export const projects = [
 		desc: "Used the Minimax algorithm to create an AI that plays Tic-Tac-Toe optimally.",
 		github: "",
 		link: "",
-		image: ""
+		image: "/img/icons/common/tic.gif"
 	},
 
 	{
@@ -236,21 +236,29 @@ export const projects = [
 		link: "",
 		image: "/img/icons/common/wordle.gif"
 	},
+
+	{
+		name: "Parser",
+		desc: "Wrote an AI to parse sentences and extract noun phrases using the Natural Language Toolkit ntlk Python library. ",
+		github: "",
+		link: "",
+		image: "/img/icons/common/parser.gif"
+	},
 	{
 		name: "Web Application for Booking Home Services",
-		desc: "The purpose of this web application is to allow users to book home services, utilizing Django and Javascript. Included integration with email.",
+		desc: "Built a single page web application to allow users to book home services, utilizing Django and Javascript. Included integration with email.",
 		//github: "https://github.com/djtanner/capstone",
-		link: "https://youtu.be/YAS9_Gnld0c"
+		image: "/img/icons/common/home.gif"
 	},
 	{
 		name: "The Massachusetts Platform for Legislative Engagement (MAPLE)",
 		desc: "Open Source contributor for bug fixes and new features",
-		//github: "https://github.com/codeforboston/maple",
+		github: "https://github.com/codeforboston/maple",
 		link: "https://mapletestimony.org/"
 	},
 	{
 		name: "Mochi the Digger",
-		desc: "Created a 2D game using Lua and Love2D.",
+		desc: "Created a 2D game using Lua and Love2D. Levels were created using procedural generation.",
 		github: "",
 		link: "",
 		image: "/img/icons/common/mochi.gif"

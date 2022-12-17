@@ -137,6 +137,15 @@ abbr[data-original-title] {
 	text-decoration-skip-ink: none;
 }
 
+
+.round{
+	border-radius: 50%;
+	width: 400px;
+	height: 400px;
+}
+
+
+
 address {
 	margin-bottom: 1rem;
 	font-style: normal;
