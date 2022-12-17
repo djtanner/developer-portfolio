@@ -4,7 +4,7 @@ export const greetings = {
 	name: "Zhila Shariat",
 	title: "Hi, I'm Zhila!",
 	description:
-		"I'm a software engineer with experience in creating web applications with Javascript, Python, Django, Flask, React.js, Next.js and a passion for products utilizing Artificial Intelligence.",
+		"I'm a software engineer with experience in creating web applications with Javascript, Python, Django, Flask, React.js, and Next.js and have a passion for creating games and products that utilize Artificial Intelligence.",
 	resumeLink:
 		"https://docs.google.com/document/d/1xWBvKKwoUvqZHSVFrtacDJNxh4UKAgUP37MUlDdYWsY/edit?usp=sharing",
 };
@@ -282,7 +282,7 @@ export const feedbacks = [
 ];
 
 // option to hide or show the ContactUs component
-export const showContactUs = true;
+export const showContactUs = false;
 
 // See object prototype on SEO.jsx page
 export const seoData = {

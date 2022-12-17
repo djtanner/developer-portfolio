@@ -13,8 +13,8 @@ const GithubProfileCard = ({ prof }) => {
 					<Row className="">
 						<Col className="order-lg-2" lg="4">
 							<img
-								src={prof.avatar_url}
-								style={{ width: "200px" }}
+								src="/img/computerlab.jpg"
+								style={{ width: "300px" }}
 								alt=""
 								className="rounded-circle img-center img-fluid shadow shadow-lg--hover mb-4"
 							/>
