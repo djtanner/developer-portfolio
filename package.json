@@ -7,10 +7,10 @@
   "author": "original Hanzla Tauqeer , changes by Zhila Shariat",
   "license": "MIT",
   "scripts": {
-    "dev": "next dev && export SET NODE_OPTIONS=--openssl-legacy-provider",
-    "build": "next build && export SET NODE_OPTIONS=--openssl-legacy-provider",
-    "start": "next start export SET NODE_OPTIONS=--openssl-legacy-provider",
-    "lint": "next lint"
+    "dev": "cross-env NODE_OPTIONS='--openssl-legacy-provider' next dev",
+    "build": "cross-env NODE_OPTIONS='--openssl-legacy-provider' next build",
+    "start": "cross-env NODE_OPTIONS='--openssl-legacy-provider' next start",
+    "lint": "cross-env NODE_OPTIONS='--openssl-legacy-provider' next lint"
   },
   "dependencies": {
     "@apollo/client": "^3.3.21",
@@ -19,6 +19,7 @@
     "@next/eslint-plugin-next": "11.1.3-canary.7",
     "bootstrap": "^5.0.2",
     "classnames": "^2.3.1",
+    "cross-env": "^7.0.3",
     "gh-pages": "^4.0.0",
     "graphql": "^15.5.1",
     "headroom.js": "^0.12.0",
