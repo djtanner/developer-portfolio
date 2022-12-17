@@ -44,6 +44,10 @@ const ProjectsCard = ({ data }) => {
 										</span>
 									</Button>
 								) : null}
+
+								{data.image ? (
+									<img src = {data.image} alt = "Demo image" width = "350"></img>
+								) : null}
 							</div>
 						</div>
 					</CardBody>

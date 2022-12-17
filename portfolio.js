@@ -174,7 +174,17 @@ export const educationInfo = [
 ];
 
 export const experience = [
-	
+	{
+		role: "Volunteer",
+		company: "Women in Tech Dubai",
+		companylogo: "/img/icons/common/womenintech.jpeg",
+		date: "2020 - present",
+		desc: "Women In Tech Dubai is a UAE based professional group that is focused on creating a safe space and community for women working in the tech field or are interested learning more about the field. I co-lead a Data Structures and Algorithms study group and organize events."
+		// descBullets: [
+		// 	"Lorem ipsum dolor sit amet, consdfgectetur adipiscing elit",
+		// 	"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+		// ],
+	},
 	{
 		role: "Head of Product",
 		company: "Matic",
@@ -206,19 +216,35 @@ export const projects = [
 	{
 		name: "Computer Vision for Traffic Signs",
 		desc: "Used Tensor Flow to build a neural network to classify road signs based on images from the GTSRB dataset. Resulted in 96% accuracy.",
-		github: "https://github.com/djtanner/traffic",
+		//github: "https://github.com/djtanner/traffic",
 		link: "https://youtu.be/is2g0UvK8nc",
+	},
+
+	{
+		name: "Tic-Tac-Toe Artificial Intelligence",
+		desc: "Used the Minimax algorithm to create an AI that plays Tic-Tac-Toe optimally.",
+		github: "",
+		link: "",
+		image: "/img/icons/common/traffic.gif"
+	},
+
+	{
+		name: "Wordle Clone",
+		desc: "Created a wordle clone using Reactjs and integrated with RapidAPI a random word API.",
+		github: "",
+		link: "",
+		image: "/img/icons/common/wordle.gif"
 	},
 	{
 		name: "Web Application for Booking Home Services",
 		desc: "The purpose of this web application is to allow users to book home services, utilizing Django and Javascript. Included integration with email.",
-		github: "https://github.com/djtanner/capstone",
+		//github: "https://github.com/djtanner/capstone",
 		link: "https://youtu.be/YAS9_Gnld0c"
 	},
 	{
 		name: "The Massachusetts Platform for Legislative Engagement (MAPLE)",
 		desc: "Open Source contributor for bug fixes and new features",
-		github: "https://github.com/codeforboston/maple",
+		//github: "https://github.com/codeforboston/maple",
 		link: "https://mapletestimony.org/"
 	},
 	{
@@ -227,6 +253,9 @@ export const projects = [
 		github: "https://github.com/djtanner/digger",
 		link: "https://youtu.be/q6AKHB0kIxE"
 	},
+
+
+
 ];
 
 export const feedbacks = [
