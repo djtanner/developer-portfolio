@@ -5,7 +5,7 @@ export const greetings = {
 	title: "Hi, I'm Zhila!",
 	description:
 		"I'm a software engineer with experience in creating web applications with Javascript, Python, Django, Flask, React.js, and Next.js and have a passion for creating games and applications that utilize Artificial Intelligence.",
-	//resumeLink:"https://docs.google.com/document/d/1xWBvKKwoUvqZHSVFrtacDJNxh4UKAgUP37MUlDdYWsY/edit?usp=sharing",
+	resumeLink:"",
 };
 
 export const openSource = {
@@ -230,7 +230,7 @@ export const projects = [
 
 	{
 		name: "Wordle Clone",
-		desc: "Created a wordle clone using Reactjs and integrated with RapidAPI a random word API.",
+		desc: "Created a wordle clone using Reactjs and integrated with RapidAPI to fetch data from a random word API.",
 		github: "",
 		link: "",
 		image: "/img/icons/common/wordle.gif"
