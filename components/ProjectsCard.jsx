@@ -46,7 +46,7 @@ const ProjectsCard = ({ data }) => {
 								) : null}
 
 								{data.image ? (
-									<img src = {data.image} alt = "Demo image" width = "350"></img>
+									<img src = {data.image} alt = "Demo image" width = "100%"></img>
 								) : null}
 							</div>
 						</div>
