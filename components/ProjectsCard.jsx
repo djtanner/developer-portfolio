@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Card, CardBody, Col, Button } from "reactstrap";
+import { Card, CardBody, Col, Button, Badge } from "reactstrap";
 
 import { Fade } from "react-reveal";
 
@@ -13,6 +13,16 @@ const ProjectsCard = ({ data }) => {
 						<div className="d-flex px-3">
 							<div className="pl-4">
 								<h3>{data.name}</h3>
+								{ data.tech && (
+								<Badge color="primary" className="mr-1">
+									{data.tech}
+								</Badge>
+							)}
+							{ data.tech2 && (
+								<Badge color="primary" className="mr-1">
+									{data.tech2}
+								</Badge>
+							)}
 								<p className="description mt-3">{data.desc}</p>
 								{data.github ? (
 									<Button

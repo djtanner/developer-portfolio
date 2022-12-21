@@ -217,7 +217,9 @@ export const projects = [
 		desc: "Used Tensor Flow to build a neural network to classify road signs based on images from the GTSRB dataset. Resulted in 97% accuracy.",
 		//github: "https://github.com/djtanner/traffic",
 		link: "",
-		image: "/img/icons/common/traffic.gif"
+		image: "/img/icons/common/traffic.gif",
+		tech: "python",
+		tech2: "Tensor Flow"
 	},
 
 	{
@@ -225,7 +227,8 @@ export const projects = [
 		desc: "Used the Minimax algorithm to create an AI that plays Tic-Tac-Toe optimally.",
 		github: "",
 		link: "",
-		image: "/img/icons/common/tic.gif"
+		image: "/img/icons/common/tic.gif",
+		tech: "python",
 	},
 
 	{
@@ -233,7 +236,9 @@ export const projects = [
 		desc: "Created a wordle clone using Reactjs and integrated with RapidAPI to fetch data from a random word API.",
 		github: "",
 		link: "",
-		image: "/img/icons/common/wordle.gif"
+		image: "/img/icons/common/wordle.gif",
+		tech: "React",
+		tech2: "Javascript"
 	},
 
 	{
@@ -241,13 +246,16 @@ export const projects = [
 		desc: "Wrote an AI to parse sentences and extract noun phrases using the Natural Language Toolkit ntlk Python library. ",
 		github: "",
 		link: "",
-		image: "/img/icons/common/parser.gif"
+		image: "/img/icons/common/parser.gif",
+		tech: "python",
 	},
 	{
 		name: "Web Application for Booking Home Services",
 		desc: "Built a single page web application to allow users to book home services, utilizing Django and Javascript. Included integration with email.",
 		//github: "https://github.com/djtanner/capstone",
-		image: "/img/icons/common/home.gif"
+		image: "/img/icons/common/home.gif",
+		tech: "Django",
+		tech2: "Fullstack",
 	},
 	{
 		name: "The Massachusetts Platform for Legislative Engagement (MAPLE)",
@@ -260,14 +268,17 @@ export const projects = [
 		desc: "Created a 2D game using Lua and Love2D. Levels were created using procedural generation.",
 		github: "",
 		link: "",
-		image: "/img/icons/common/mochi.gif"
+		image: "/img/icons/common/mochi.gif",
+		tech: "Lua",
+
 	},
 	{
 		name: "Question and Answer AI",
 		desc: "Implemented a TF-IDF function to answer questions based on ranking documents and words using the Natural Language Toolkit NLTK library in Python.",
 		github: "",
 		link: "",
-		image: "/img/icons/common/questions.gif"
+		image: "/img/icons/common/questions.gif",
+		tech: "python"
 	},
 
 
