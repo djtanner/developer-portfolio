@@ -18,11 +18,12 @@ const ProjectsCard = ({ data }) => {
 									{data.tech}
 								</Badge>
 							)}
-							{ data.tech2 && (
-								<Badge color="primary" className="mr-1">
-									{data.tech2}
-								</Badge>
-							)}
+							{data.descBullets
+									? data.descBullets.map((desc) => {
+											return <Badge key={desc} color="primary" className="mr-1">{desc}</Badge>;
+									  })
+									: null}
+				
 								<p className="description mt-3">{data.desc}</p>
 								{data.github ? (
 									<Button

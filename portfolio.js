@@ -218,8 +218,8 @@ export const projects = [
 		//github: "https://github.com/djtanner/traffic",
 		link: "",
 		image: "/img/icons/common/traffic.gif",
-		tech: "python",
-		tech2: "Tensor Flow"
+		descBullets: ["python", "Tensor Flow"],
+		
 	},
 
 	{
@@ -228,7 +228,7 @@ export const projects = [
 		github: "",
 		link: "",
 		image: "/img/icons/common/tic.gif",
-		tech: "python",
+		descBullets: ["python"]
 	},
 
 	{
@@ -237,8 +237,8 @@ export const projects = [
 		github: "",
 		link: "",
 		image: "/img/icons/common/wordle.gif",
-		tech: "React",
-		tech2: "Javascript"
+		descBullets: ["ReactJS", "Javascript", "Fullstack"]
+		
 	},
 
 	{
@@ -247,21 +247,22 @@ export const projects = [
 		github: "",
 		link: "",
 		image: "/img/icons/common/parser.gif",
-		tech: "python",
+		descBullets: ["python"]
 	},
 	{
 		name: "Web Application for Booking Home Services",
 		desc: "Built a single page web application to allow users to book home services, utilizing Django and Javascript. Included integration with email.",
 		//github: "https://github.com/djtanner/capstone",
 		image: "/img/icons/common/home.gif",
-		tech: "Django",
-		tech2: "Fullstack",
+		descBullets: ["Django", "Python", "Fullstack"]
+		
 	},
 	{
 		name: "The Massachusetts Platform for Legislative Engagement (MAPLE)",
-		desc: "Open Source contributor for bug fixes and new features",
+		desc: "Open Source contributor for bug fixes and new features. Worked on Frontend.",
 		github: "https://github.com/codeforboston/maple",
-		link: "https://mapletestimony.org/"
+		link: "https://mapletestimony.org/",
+		descBullets: ["ReactJS", "Javascript"]
 	},
 	{
 		name: "Mochi the Digger",
@@ -269,7 +270,7 @@ export const projects = [
 		github: "",
 		link: "",
 		image: "/img/icons/common/mochi.gif",
-		tech: "Lua",
+		descBullets: ["Lua"]
 
 	},
 	{
@@ -278,7 +279,7 @@ export const projects = [
 		github: "",
 		link: "",
 		image: "/img/icons/common/questions.gif",
-		tech: "python"
+		descBullets: ["python"]
 	},
 
 
