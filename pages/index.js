@@ -23,7 +23,7 @@ export default function Home({ githubProfileData }) {
       <Greetings />
       <Skills />
       <Projects />
-      <Experience />
+     {/* <Experience /> */}
       <Education />
       {showContactUs ? <Contact /> : null}
       <GithubProfileCard prof={githubProfileData} />

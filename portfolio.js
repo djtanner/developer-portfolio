@@ -23,7 +23,7 @@ export const socialLinks = {
 export const skillsSection = {
 	title: "What I do",
 	subTitle:
-		"FULL STACK SOFTWARE ENGINEER WITH A PASSION FOR ARTIFICIAL INTELLIGENCE",
+		"FULL STACK SOFTWARE ENGINEER",
 	data: [
 		{
 			title: "Full Stack Development",
@@ -32,9 +32,9 @@ export const skillsSection = {
 				emoji(
 					"⚡ Building responsive Single-Page-Apps with Python, Flask, Django, and React.js"
 				),
-				emoji("⚡ Building AI and ML projects using Python and Tensor Flow"),
+				emoji("⚡ Building AI and ML projects using Python and TensorFlow"),
 				emoji(
-					"⚡ Building RESTful APIs in Django & Django REST Framework"
+					"⚡ Building RESTful APIs in Django"
 				),
 			],
 			softwareSkills: [
