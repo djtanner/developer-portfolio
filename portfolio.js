@@ -232,6 +232,15 @@ export const projects = [
 	},
 
 	{
+		name: "Meme Generator",
+		desc: "Used ReactJS and fetched data from imgflip API to create a random meme generator.",
+		github: "",
+		link: "",
+		image: "/img/icons/common/meme.gif",
+		descBullets:["ReactJS", "Javascript", "Fullstack"]
+	},
+
+	{
 		name: "Wordle Clone",
 		desc: "Created a wordle clone using Reactjs and integrated with RapidAPI to fetch data from a random word API.",
 		github: "",
@@ -243,7 +252,7 @@ export const projects = [
 
 	{
 		name: "Parser",
-		desc: "Wrote an AI to parse sentences and extract noun phrases using the Natural Language Toolkit ntlk Python library. ",
+		desc: "Wrote an AI to parse sentences and extract noun phrases using the Natural Language Toolkit NLTK Python library. ",
 		github: "",
 		link: "",
 		image: "/img/icons/common/parser.gif",
