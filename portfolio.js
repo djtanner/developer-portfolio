@@ -271,7 +271,7 @@ export const projects = [
 		desc: "Open Source contributor for bug fixes and new features. Worked on Frontend.",
 		github: "https://github.com/codeforboston/maple",
 		link: "https://mapletestimony.org/",
-		descBullets: ["ReactJS", "Javascript"]
+		descBullets: ["NEXTJS", "Javascript"]
 	},
 	{
 		name: "Mochi the Digger",
