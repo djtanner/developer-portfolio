@@ -23,7 +23,7 @@ const GithubProfileCard = ({ prof }) => {
 							<h2 className="text-white">Connect with me!</h2>
 							<p className="lead text-white mt-3">
 								Want to discuss a project or just say hi? 
-								 Please connect with me on Github or LinkedIn!</p>
+								 Please connect with me on LinkedIn, Github, or Twitter!</p>
 					
 							<SocialLinks />	
 						</Col>
