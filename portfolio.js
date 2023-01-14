@@ -290,6 +290,14 @@ export const projects = [
 		image: "/img/icons/common/questions.gif",
 		descBullets: ["python"]
 	},
+	{
+		name: "Rubber Duck Debuggify",
+		desc: "Integrated with Spotify Web Playback SDK for user login and playback of Spotify music. Used Lottie animation that pauses and animates with the music player controls. Implemented dark and light themes.",
+		github: "https://github.com/djtanner/spotify-web-playback-sdk-example",
+		link: "",
+		image: "/img/icons/common/spotify.gif",
+		descBullets: ["REACTJS", "JAVASCRIPT"]
+	},
 
 
 ];
