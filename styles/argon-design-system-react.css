@@ -2545,7 +2545,7 @@ fieldset:disabled a.btn {
 	background-color: #172B4D;
 	border-color: #172B4D;
 	box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
-	margin-bottom: 10px
+	/*margin-bottom: 10px*/
 }
 .btn-success:hover {
 	color: #fff;
@@ -16233,7 +16233,7 @@ a.btn-icon-only {
 	background-color: #222222;
 	border-color: #222222;
 	box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
-	margin-bottom: 10px;
+	/*margin-bottom: 10px;*/
 }
 .btn-github:hover {
 	color: #fff;
@@ -22727,3 +22727,6 @@ td.rdtYear:hover {
 }
 
 /*# sourceMappingURL=argon-design-system-react.css.map */
+img {
+	margin-top: 5px;
+}

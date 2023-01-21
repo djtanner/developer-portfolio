@@ -29,13 +29,13 @@ export const skillsSection = {
 			title: "Full Stack Development",
 			lottieAnimationFile: "/lottie/girl.json", // Path of Lottie Animation JSON File
 			skills: [
-				emoji(
+				
 					"⚡ Building responsive Single-Page-Apps with Python, Flask, Django, and React.js"
-				),
-				emoji("⚡ Building AI and ML projects using Python and TensorFlow"),
-				emoji(
+				,
+				"⚡ Building AI and ML projects using Python and TensorFlow",
+				
 					"⚡ Building RESTful APIs in Django"
-				),
+				,
 			],
 			softwareSkills: [
 				{
@@ -241,6 +241,15 @@ export const projects = [
 	},
 
 	{
+		name: "Hydration Tracker",
+		desc: "Used ReactJS to create a water consumption tracking app and deployed with Vercel.",
+		github: "https://github.com/djtanner/water",
+		link: "https://water-eight.vercel.app/",
+		image: "/img/icons/common/water.gif",
+		descBullets:["ReactJS", "Javascript", "Fullstack"]
+	},
+
+	{
 		name: "Wordle Clone",
 		desc: "Created a wordle clone using Reactjs and integrated with RapidAPI to fetch data from a random word API.",
 		github: "",
@@ -263,6 +272,7 @@ export const projects = [
 		desc: "Built a single page web application to allow users to book home services, utilizing Django and Javascript. Included integration with email.",
 		//github: "https://github.com/djtanner/capstone",
 		image: "/img/icons/common/home.gif",
+		github: "https://github.com/djtanner/booking",
 		descBullets: ["Django", "Python", "Fullstack"]
 		
 	},
@@ -276,7 +286,7 @@ export const projects = [
 	{
 		name: "Mochi the Digger",
 		desc: "Created a 2D game using Lua and Love2D. Levels were created using procedural generation.",
-		github: "",
+		github: "https://github.com/djtanner/digger",
 		link: "",
 		image: "/img/icons/common/mochi.gif",
 		descBullets: ["Lua"]
