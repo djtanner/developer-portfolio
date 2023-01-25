@@ -4,7 +4,7 @@ export const greetings = {
 	name: "Zhila Shariat",
 	title: "Hi, I'm Zhila!",
 	description:
-		"I'm a software engineer with experience in creating web applications with Javascript, Python, Django, Flask, React.js, and Next.js and have a passion for creating games and applications that utilize Artificial Intelligence.",
+		"I'm a software engineer with experience in creating web applications with Javascript, Python, Django, Flask, React.js, and Node.js and have a passion for creating games and applications that utilize Artificial Intelligence.",
 	resumeLink:"",
 };
 
