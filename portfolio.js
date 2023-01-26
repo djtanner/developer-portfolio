@@ -242,7 +242,7 @@ export const projects = [
 
 	{
 		name: "Hydration Tracker",
-		desc: "Used ReactJS to create a water consumption tracking app and deployed with Vercel.",
+		desc: "Used ReactJS to create a water consumption tracking app, integrated with Firebase for user authentication, and deployed with Vercel.",
 		github: "https://github.com/djtanner/water",
 		link: "https://water-eight.vercel.app/",
 		image: "/img/icons/common/water.gif",
