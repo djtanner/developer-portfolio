@@ -34,7 +34,7 @@ export const skillsSection = {
 				,
 				"⚡ Building AI and ML projects using Python and TensorFlow",
 				
-					"⚡ Building RESTful APIs in Django"
+					"⚡ Building Fullstack applications using the MERN stack"
 				,
 			],
 			softwareSkills: [
@@ -213,6 +213,15 @@ export const experience = [
 
 export const projects = [
 	{
+		name: "Dice Game",
+		desc: "Created a fullstack web application for playing a dice rolling game. Included development of multiple APIs and cookie storage for registering and logging in users, getting and setting high scores, and sending dice rolls from the server side. Used MongoDB for data storage.",
+		//github: "",
+		link: "",
+		image: "/img/icons/common/dice.png",
+		descBullets: ["MONGODB","EXPRESS", "REACTJS", "NODE", "JAVASCRIPT", "HTML", "CSS"],
+		
+	},
+	{
 		name: "Computer Vision for Traffic Signs",
 		desc: "Used Tensor Flow to build a neural network to classify road signs based on images from the GTSRB dataset. Resulted in 97% accuracy.",
 		//github: "https://github.com/djtanner/traffic",
@@ -243,8 +252,8 @@ export const projects = [
 	{
 		name: "Hydration Tracker",
 		desc: "Used ReactJS to create a water consumption tracking app, integrated with Firebase for user authentication, and deployed with Vercel.",
-		github: "https://github.com/djtanner/water",
-		link: "https://water-eight.vercel.app/",
+		github: "",
+		link: "",
 		image: "/img/icons/common/water.gif",
 		descBullets:["ReactJS", "Javascript", "Fullstack"]
 	},
