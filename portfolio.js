@@ -215,7 +215,7 @@ export const projects = [
 	{
 		name: "Dice Game",
 		desc: "Created a fullstack web application for playing a dice rolling game. Included development of multiple APIs and cookie storage for registering and logging in users, getting and setting high scores, and sending dice rolls from the server side. Used MongoDB for data storage.",
-		//github: "",
+		github: "https://github.com/djtanner/dice-app",
 		link: "",
 		image: "/img/icons/common/dice.png",
 		descBullets: ["MONGODB","EXPRESS", "REACTJS", "NODE", "JAVASCRIPT", "HTML", "CSS"],
