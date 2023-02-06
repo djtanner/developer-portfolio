@@ -103,7 +103,7 @@ export const SkillBars = [
 export const educationInfo = [
 	{
 		schoolName: "Columbia Business School",
-		subHeader: "Master of Science in Business Administration",
+		subHeader: "Master of Business Administration",
 		duration: "2006 - 2008",
 		desc: "",
 		grade: "MBA",
