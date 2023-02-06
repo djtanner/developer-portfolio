@@ -239,6 +239,15 @@ export const projects = [
 		image: "/img/icons/common/tic.gif",
 		descBullets: ["python"]
 	},
+	{
+		name: "Mochi the Digger",
+		desc: "Created a 2D game using Lua and Love2D. Levels were created using procedural level generation. Implemented quad generation for sprite sheets, collision detection, path finding, and a game state machine. Published the game on itch.io.",
+		github: "https://github.com/djtanner/digger",
+		link: "https://zhila.itch.io/mochi",
+		image: "/img/icons/common/mochi.gif",
+		descBullets: ["Lua"]
+
+	},
 
 	{
 		name: "Meme Generator",
@@ -248,7 +257,7 @@ export const projects = [
 		image: "/img/icons/common/meme.gif",
 		descBullets:["ReactJS", "Javascript", "Fullstack"]
 	},
-
+	
 	{
 		name: "Hydration Tracker",
 		desc: "Used ReactJS to create a water consumption tracking app, integrated with Firebase for user authentication, and deployed with Vercel.",
@@ -292,15 +301,7 @@ export const projects = [
 		link: "https://mapletestimony.org/",
 		descBullets: ["NEXTJS", "Javascript"]
 	},
-	{
-		name: "Mochi the Digger",
-		desc: "Created a 2D game using Lua and Love2D. Levels were created using procedural generation.",
-		github: "https://github.com/djtanner/digger",
-		link: "",
-		image: "/img/icons/common/mochi.gif",
-		descBullets: ["Lua"]
 
-	},
 	{
 		name: "Question and Answer AI",
 		desc: "Implemented a TF-IDF function to answer questions based on ranking documents and words using the Natural Language Toolkit NLTK library in Python.",
