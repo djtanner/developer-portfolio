@@ -5,7 +5,7 @@ export const greetings = {
 	title: "Hi, I'm Zhila!",
 	description:
 		"I'm a software engineer with experience in creating web applications with Javascript, Python, Django, Flask, React.js, and Node.js and have a passion for creating games and applications that utilize Artificial Intelligence.",
-	resumeLink:"",
+	resumeLink: "",
 };
 
 export const openSource = {
@@ -29,12 +29,12 @@ export const skillsSection = {
 			title: "Full Stack Development",
 			lottieAnimationFile: "/lottie/girl.json", // Path of Lottie Animation JSON File
 			skills: [
-				
-					"⚡ Building responsive Single-Page-Apps with Python, Flask, Django, and React.js"
+
+				"⚡ Building responsive Single-Page-Apps with Python, Flask, Django, and React.js"
 				,
 				"⚡ Building AI and ML projects using Python and TensorFlow",
-				
-					"⚡ Building Fullstack applications using the MERN stack"
+
+				"⚡ Building Fullstack applications using the MERN stack"
 				,
 			],
 			softwareSkills: [
@@ -78,10 +78,10 @@ export const skillsSection = {
 					skillName: "Yarn",
 					fontAwesomeClassname: "logos:yarn",
 				},
-				
+
 			],
 		},
-		
+
 	],
 };
 
@@ -108,7 +108,7 @@ export const educationInfo = [
 		desc: "",
 		grade: "MBA",
 		descBullets: [
-			
+
 		],
 	},
 	{
@@ -118,7 +118,7 @@ export const educationInfo = [
 		desc: "",
 		grade: "BS",
 		descBullets: [
-			
+
 		],
 	},
 	{
@@ -129,7 +129,7 @@ export const educationInfo = [
 		grade: "Certificate",
 		descBullets: [
 			"Topics include abstraction, algorithms, data structures, encapsulation, resource management, security, software engineering, and web programming.",
-			
+
 		],
 	},
 	{
@@ -140,7 +140,7 @@ export const educationInfo = [
 		grade: "Certificate",
 		descBullets: [
 			"Write and use APIs, create interactive UIs, and leverage cloud services like GitHub and Heroku. Topics include database design, scalability, security, and user experience. "
-			
+
 		],
 	},
 
@@ -152,7 +152,7 @@ export const educationInfo = [
 		grade: "Certificate",
 		descBullets: [
 			"Explores principles of 2D and 3D graphics, animation, sound, and collision detection using Unity and LÖVE 2D frameworks.",
-			
+
 		],
 	},
 
@@ -164,7 +164,7 @@ export const educationInfo = [
 		grade: "Certificate",
 		descBullets: [
 			"Topics include graph search algorithms, classification, optimization, reinforcement learning, neural networks, NLP.",
-	
+
 		],
 	},
 
@@ -218,8 +218,8 @@ export const projects = [
 		github: "https://github.com/djtanner/dice-app",
 		link: "",
 		image: "/img/icons/common/dice.png",
-		descBullets: ["MONGODB","EXPRESS", "REACTJS", "NODE", "JAVASCRIPT", "HTML", "CSS"],
-		
+		descBullets: ["MONGODB", "EXPRESS", "REACTJS", "NODE", "JAVASCRIPT", "HTML", "CSS"],
+
 	},
 	{
 		name: "Computer Vision for Traffic Signs",
@@ -228,7 +228,7 @@ export const projects = [
 		link: "",
 		image: "/img/icons/common/traffic.gif",
 		descBullets: ["python", "Tensor Flow"],
-		
+
 	},
 
 	{
@@ -255,16 +255,16 @@ export const projects = [
 		github: "",
 		link: "",
 		image: "/img/icons/common/meme.gif",
-		descBullets:["ReactJS", "Javascript", "Fullstack"]
+		descBullets: ["ReactJS", "Javascript", "Fullstack"]
 	},
-	
+
 	{
 		name: "Hydration Tracker",
 		desc: "Used ReactJS to create a water consumption tracking app, integrated with Firebase for user authentication, and deployed with Vercel.",
 		github: "",
 		link: "",
 		image: "/img/icons/common/water.gif",
-		descBullets:["ReactJS", "Javascript", "Fullstack"]
+		descBullets: ["ReactJS", "Javascript", "Fullstack"]
 	},
 
 	{
@@ -274,7 +274,7 @@ export const projects = [
 		link: "",
 		image: "/img/icons/common/wordle.gif",
 		descBullets: ["ReactJS", "Javascript", "Fullstack"]
-		
+
 	},
 
 	{
@@ -292,7 +292,7 @@ export const projects = [
 		image: "/img/icons/common/home.gif",
 		github: "https://github.com/djtanner/booking",
 		descBullets: ["Django", "Python", "Fullstack"]
-		
+
 	},
 	{
 		name: "The Massachusetts Platform for Legislative Engagement (MAPLE)",
@@ -313,7 +313,7 @@ export const projects = [
 	{
 		name: "Rubber Duck Debuggify",
 		desc: "Integrated with Spotify Web Playback SDK for user login and playback of Spotify music. Used Lottie animation that pauses and animates with the music player controls. Implemented dark and light themes.",
-		github: "https://github.com/djtanner/spotify-web-playback-sdk-example",
+		github: "",
 		link: "",
 		image: "/img/icons/common/spotify.gif",
 		descBullets: ["REACTJS", "JAVASCRIPT"]
