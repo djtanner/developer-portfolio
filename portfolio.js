@@ -213,6 +213,15 @@ export const experience = [
 
 export const projects = [
 	{
+		name: "Van Life",
+		desc: "Created a React web application for a van rental marketplace. Utilized React Router 6 for routing and data loading and Firebase Cloud Firestore for data storage. Deployed to production using Netlify with CI/CD through Github.",
+		github: "",
+		link: "https://this-van-life.netlify.app/",
+		image: "/img/icons/common/van.png",
+		descBullets: ["REACTJS", "REACT-ROUTER", "JAVASCRIPT", "HTML", "CSS", "FIREBASE"],
+
+	},
+	{
 		name: "Dice Game",
 		desc: "Created a fullstack web application for playing a dice rolling game. Included development of multiple APIs and cookie storage for registering and logging in users, getting and setting high scores, and sending dice rolls from the server side. Used MongoDB for data storage.",
 		github: "https://github.com/djtanner/dice-app",
