@@ -213,6 +213,15 @@ export const experience = [
 
 export const projects = [
 	{
+		name: "Stardew Valley Schedules",
+		desc: "Created a React web application for displaying NPC schedules from the game Stardew Valley using data from the SDV wiki. Deployed to production using Vercel with CI/CD through Github.",
+		github: "https://github.com/djtanner/stardew-schedules",
+		link: "https://stardew-schedules.vercel.app/",
+		image: "/img/icons/common/sdv.png",
+		descBullets: ["REACTJS", "VITE", "JAVASCRIPT", "HTML", "CSS"],
+
+	},
+	{
 		name: "Van Life",
 		desc: "Created a React web application for a van rental marketplace. Utilized React Router 6 for routing and data loading and Firebase Cloud Firestore for data storage. Deployed to production using Netlify with CI/CD through Github.",
 		github: "",
