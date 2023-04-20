@@ -216,7 +216,7 @@ export const projects = [
 		name: "Invaders",
 		desc: "Created a space invaders style game using the Love2D game engine. Implemented parallax background, animations, and a state machine for managing game states and object states.",
 		github: "https://github.com/djtanner/invaders",
-		link: "",
+		link: "https://zhila.itch.io/invaders",
 		image: "/img/icons/common/invaders.gif",
 		descBullets: ["LUA", "LOVE2D"],
 
