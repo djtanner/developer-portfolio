@@ -212,6 +212,15 @@ export const experience = [
 ];
 
 export const projects = [
+{
+		name: "Invaders",
+		desc: "Created a space invaders style game using the Love2D game engine. Implemented parallax background, animations, and a state machine for managing game states and object states.",
+		github: "https://github.com/djtanner/invaders",
+		link: "",
+		image: "/img/icons/common/invaders.gif",
+		descBullets: ["LUA", "LOVE2D"],
+
+	},
 	{
 		name: "Stardew Valley Schedules",
 		desc: "Created a React web application for displaying NPC schedules from the game Stardew Valley using data from the SDV wiki. Deployed to production using Vercel with CI/CD through Github.",
@@ -263,7 +272,7 @@ export const projects = [
 		github: "https://github.com/djtanner/digger",
 		link: "https://zhila.itch.io/mochi",
 		image: "/img/icons/common/mochi.gif",
-		descBullets: ["Lua"]
+		descBullets: ["Lua", "LOVE2D"]
 
 	},
 
