@@ -17,7 +17,8 @@ export const contact = {};
 export const socialLinks = {
 	linkedin: "https://www.linkedin.com/in/zhilashariat/",
 	github: "https://github.com/djtanner",
-	twitter: "https://twitter.com/zhilacodes"
+	twitter: "https://twitter.com/zhilacodes",
+	medium: "https://medium.com/@zhi1a/"
 };
 
 export const skillsSection = {
