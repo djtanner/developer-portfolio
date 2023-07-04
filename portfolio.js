@@ -228,7 +228,7 @@ export const projects = [
 		github: "https://github.com/djtanner/stardew-schedules",
 		link: "https://stardew-schedules.vercel.app/",
 		image: "/img/icons/common/sdv.png",
-		descBullets: ["REACTJS", "VITE", "JAVASCRIPT", "HTML", "CSS"],
+		descBullets: ["REACTJS", "VITE", "TYPESCRIPT", "HTML", "CSS"],
 
 	},
 	{
