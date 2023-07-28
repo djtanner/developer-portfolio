@@ -213,7 +213,18 @@ export const experience = [
 ];
 
 export const projects = [
-{
+	{
+		name: "Disco",
+		desc: "Created all of the endpoints and backend functionality for generating newsletters for podcasters. This included testing and using various AI models and setting up the infrastructure for transcribing audio, as well as developing APIs using Python, Flask, and Redis to generate newsletter content to be consumed by a Ruby on Rails application.",
+		github: "",
+		link: "",
+		image: "/img/icons/common/disco.png",
+		descBullets: ["PYTHON", "FLASK", "JAVASCRIPT", "WHISPER", "OPENAI", "AI"],
+
+	},
+
+
+	{
 		name: "Invaders",
 		desc: "Created a space invaders style game using the Love2D game engine. Implemented parallax background, animations, and a state machine for managing game states and object states.",
 		github: "https://github.com/djtanner/invaders",
