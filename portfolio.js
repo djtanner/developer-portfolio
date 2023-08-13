@@ -217,7 +217,7 @@ export const projects = [
 		name: "Disco",
 		desc: "Created all of the endpoints and backend functionality for generating newsletters for podcasters. This included testing and using various AI models and setting up the infrastructure for transcribing audio, as well as developing APIs using Python, Flask, and Redis to generate newsletter content to be consumed by a Ruby on Rails application.",
 		github: "",
-		link: "",
+		link: "https://www.heydisco.com/",
 		image: "/img/icons/common/disco.png",
 		descBullets: ["PYTHON", "FLASK", "JAVASCRIPT", "WHISPER", "OPENAI", "AI"],
 
