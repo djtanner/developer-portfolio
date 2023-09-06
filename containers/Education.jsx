@@ -17,7 +17,7 @@ const Education = () => {
 						<h4 className="display-3 text-white">Education and Certificates</h4>
 					</div>
 				</div>
-				<Row className="row-grid align-items-center">
+				<Row className="row-grid align-items-top">
 					{educationInfo.map((info) => {
 						return (
 							<Col

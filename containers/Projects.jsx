@@ -16,7 +16,7 @@ const Projects = () => {
 						</div>
 					</div>
 					<div className="pl-4">
-						<h4 className="display-3 text-info">Projects and Open Source</h4>
+						<h4 className="display-3 text-info">My Work</h4>
 					</div>
 				</div>
 				<Row className="row-grid align-items-center">

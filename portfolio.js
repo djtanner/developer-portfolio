@@ -31,11 +31,11 @@ export const skillsSection = {
 			lottieAnimationFile: "/lottie/girl.json", // Path of Lottie Animation JSON File
 			skills: [
 
-				"⚡ Building responsive Single-Page-Apps with Python, Flask, Django, and React.js"
+				"⚡ Building responsive Single-Page-Apps with React.js, Flask, and Django,"
 				,
-				"⚡ Building AI and ML projects using Python and TensorFlow",
+				"⚡ Implementing AI and ML projects using Python",
 
-				"⚡ Building Fullstack applications using the MERN stack"
+				"⚡ Creating Fullstack applications using the MERN stack"
 				,
 			],
 			softwareSkills: [
@@ -103,10 +103,20 @@ export const SkillBars = [
 
 export const educationInfo = [
 	{
+		schoolName: "University of Southern California",
+		subHeader: "Master of Science in Computer Science",
+		duration: "2023 - 2025",
+		desc: "Activities and societies: Society of Women Engineers, Viterbi Women in Engineering",
+		grade: "MS",
+		descBullets: [
+
+		],
+	},
+	{
 		schoolName: "Columbia Business School",
 		subHeader: "Master of Business Administration",
 		duration: "2006 - 2008",
-		desc: "",
+		desc: "Activities and societies: Editor of the Bottom Line student newspaper, Columbia Women's Rugby team, Columbia Women in Business, Follies",
 		grade: "MBA",
 		descBullets: [
 
@@ -116,7 +126,7 @@ export const educationInfo = [
 		schoolName: "Oklahoma State University",
 		subHeader: "Bachelor of Science in Mechanical Engineering",
 		duration: "1999 - 2003",
-		desc: "",
+		desc: "Activities and societies: Dean's Honor Roll, President's Honor Roll, Society of Women Engineers, American Society of Mechanical Engineers, Tau Beta Pi, OSU Women's Soccer Club Team",
 		grade: "BS",
 		descBullets: [
 
