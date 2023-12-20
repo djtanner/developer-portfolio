@@ -232,7 +232,15 @@ export const projects = [
 		descBullets: ["PYTHON", "FLASK", "JAVASCRIPT", "WHISPER", "OPENAI", "AI"],
 
 	},
+	{
+		name: "Planets AR iOS app",
+		desc: "Created an AR iOS app using Unity to display planets. Implemented using ARKit and wrote scripts for planet rotation.",
+		github: "",
+		link: "",
+		image: "/img/icons/common/planetslandscape.gif",
+		descBullets: ["iOS", "AR"],
 
+	},
 
 	{
 		name: "Invaders",
