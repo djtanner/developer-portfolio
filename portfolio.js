@@ -31,12 +31,14 @@ export const skillsSection = {
 			lottieAnimationFile: "/lottie/girl.json", // Path of Lottie Animation JSON File
 			skills: [
 
-				"⚡ Building responsive Single-Page-Apps with React.js, Flask, and Django,"
+				"⚡ Building responsive web apps with React.js, Flask, and Django"
 				,
 				"⚡ Implementing AI and ML projects using Python",
 
-				"⚡ Creating Fullstack applications using the MERN stack"
+				"⚡ Developing games using Lua, C#, and Unity"
 				,
+				
+
 			],
 			softwareSkills: [
 				{
@@ -232,6 +234,17 @@ export const projects = [
 		descBullets: ["PYTHON", "FLASK", "JAVASCRIPT", "WHISPER", "OPENAI", "AI"],
 
 	},
+
+	{
+		name: "DFS Room",
+		desc: "Created a Depth First Search game prototype in Rooms.xyz",
+		github: "",
+		link: "https://rooms.xyz/zhila/dfs",
+		image: "/img/icons/common/dfs.gif",
+		descBullets: ["LUA", "GAMEDEV", "DFS"],
+
+	},
+
 	{
 		name: "Planets AR iOS app",
 		desc: "Created an AR iOS app using Unity to display planets. Implemented using ARKit and wrote scripts for planet rotation.",
@@ -260,6 +273,8 @@ export const projects = [
 		descBullets: ["REACTJS", "VITE", "TYPESCRIPT", "HTML", "CSS"],
 
 	},
+
+
 	{
 		name: "Van Life",
 		desc: "Created a React web application for a van rental marketplace. Utilized React Router 6 for routing and data loading and Firebase Cloud Firestore for data storage. Deployed to production using Netlify with CI/CD through Github.",
