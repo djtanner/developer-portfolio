@@ -226,6 +226,16 @@ export const experience = [
 
 export const projects = [
 	{
+		name: "Geometry Wars",
+		desc: "Created a 2D game engine and game using SFML and C++. Utilized Entity Component System architecture.",
+		github: "https://github.com/djtanner/geometry-wars",
+		link: "",
+		image: "/img/icons/common/geometry.gif",
+		descBullets: ["SFML", "C++", "GAMEDEV"]
+
+	},
+	
+	{
 		name: "Disco",
 		desc: "Created all of the endpoints and backend functionality for generating newsletters for podcasters. This included testing and using various AI models and setting up the infrastructure for transcribing audio, as well as developing APIs using Python, Flask, and Redis to generate newsletter content to be consumed by a Ruby on Rails application.",
 		github: "",
